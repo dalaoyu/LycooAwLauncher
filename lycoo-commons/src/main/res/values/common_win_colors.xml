@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="win_yellow_gold">#FFB900</color>
+    <color name="win_golden">#FF8C00</color>
+    <color name="win_bright_orange">#F7630C</color>
+    <color name="win_burnt_orange">#CA5010</color>
+    <color name="win_rust">#CA5010</color>
+    <color name="win_light_rust">#EF6950</color>
+    <color name="win_brick_red">#D13438</color>
+    <color name="win_medium_red">#FF4343</color>
+
+    <color name="win_light_red">#E74856</color>
+    <color name="win_red">#E81123</color>
+    <color name="win_bright_rose">#EA005E</color>
+    <color name="win_rose_benga">#C30052</color>
+    <color name="win_light_radiant_orchid">#C239B3</color>
+    <color name="win_radiant_orchid">#9A0089</color>
+
+    <color name="win_blue">#0078D7</color>
+    <color name="win_dark_blue">#0063B1</color>
+    <color name="win_purple_shadow">#8E8CD8</color>
+    <color name="win_dark_purple_shadow">#6B69D6</color>
+    <color name="win_soft_rainbow">#8764B8</color>
+    <color name="win_garden_iris">#744DA9</color>
+    <color name="win_palevioletred">#B146C2</color>
+    <color name="win_prunosus">#881798</color>
+
+    <color name="win_light_cool_blue">#0099BC</color>
+    <color name="win_cool_blue">#2D7D9A</color>
+    <color name="win_seafoam">#00B7C3</color>
+    <color name="win_blue_green">#038387</color>
+    <color name="win_light_mint">#00B294</color>
+    <color name="win_dark_mint">#018574</color>
+    <color name="win_grass_green">#00CC6A</color>
+    <color name="win_green_movement">#10893E</color>
+
+    <color name="win_gray">#7A7574</color>
+    <color name="win_taupe_brown">#5D5A58</color>
+    <color name="win_steel_blue">#68768A</color>
+    <color name="win_metal_blue">#515C6B</color>
+    <color name="win_light_mosstone">#567C73</color>
+    <color name="win_mosstone">#486860</color>
+    <color name="win_lawn_green">#498205</color>
+    <color name="win_green">#107C10</color>
+
+    <color name="win_day_gray">#767676</color>
+    <color name="win_misty_gray">#4C4A48</color>
+    <color name="win_blue_gray">#69797E</color>
+    <color name="win_dark_gray">#4A5459</color>
+    <color name="win_emerald_green">#647C64</color>
+    <color name="win_sage">#525E54</color>
+    <color name="win_desert_camo">#847545</color>
+    <color name="win_protective">#7E735F</color>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">LycooCommons</string>
+    <string name="test">HELLO, I AM COMMONS STRING</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="network_unavailable">network unavailable</string>
+
+    <string-array name="hosts" translatable="false">
+        <item>lancy-server1</item>
+        <item>lancy-server2</item>
+        <item>lancy-server3</item>
+        <item>lancy-server4</item>
+        <item>lancy-server5</item>
+        <item>lancy-server6</item>
+        <item>lancy-server7</item>
+        <item>lancy-server8</item>
+        <item>lancy-server9</item>
+        <item>lancy-server10</item>
+        <item>lancy-server11</item>
+        <item>lancy-server12</item>
+        <item>lancy-server13</item>
+        <item>lancy-server14</item>
+        <item>lancy-server15</item>
+        <item>lancy-server16</item>
+        <item>lancy-server17</item>
+        <item>lancy-server18</item>
+        <item>lancy-server19</item>
+        <item>lancy-server20</item>
+    </string-array>
+
+</resources>

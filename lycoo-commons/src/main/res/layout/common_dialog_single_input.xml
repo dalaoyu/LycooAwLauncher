@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/gap_10"
+            android:layout_marginRight="@dimen/gap_10"
+            android:gravity="center_vertical"
+            android:textColor="@color/c_def_textview"
+            android:background="@android:color/black"
+            android:textSize="@dimen/c_single_input_dialog_textsize"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_hline_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/SingleInputDialogButtonStyle"
+            android:layout_weight="1"
+            android:text="@string/c_cancel"
+            />
+
+        <View style="@style/VLineStyle"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/SingleInputDialogButtonStyle"
+            android:layout_weight="1"
+            android:text="@string/c_ok"
+            />
+    </LinearLayout>
+
+</LinearLayout>

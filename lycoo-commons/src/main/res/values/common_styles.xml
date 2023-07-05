@@ -1,0 +1,152 @@
+<resources>
+
+    <style name="FullScreenStyle" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="WallPaperThemeStyle" parent="android:Theme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Focusable">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="UnFocusable">
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="CommonTextViewStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/c_def_text_size</item>
+        <item name="android:gravity">start|center_vertical</item>
+
+    </style>
+
+    <style name="DialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="DarkDialogStyle" parent="DialogStyle">
+        <item name="android:windowBackground">@color/c_dark_dialog_bg</item>
+    </style>
+
+    <style name="DialogButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/c_def_button_height</item>
+        <item name="android:textSize">@dimen/c_def_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_bg_button</item>
+    </style>
+
+    <style name="DialogHorizontalButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/c_def_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/common_bg_button</item>
+    </style>
+
+    <style name="DialogVerticalButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/c_def_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/common_bg_button</item>
+    </style>
+
+    <!-- for NumberPorgressBar -->
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="unReachedBarColor">#CCCCCC</item>
+        <item name="unReachedBarHeight">@dimen/c_number_pb_height</item>
+        <item name="reachedBarColor">#3498DB</item>
+        <item name="reachedBarHeight">@dimen/c_number_pb_height</item>
+        <item name="textColor">#3498DB</item>
+        <item name="textSize">@dimen/c_def_text_size</item>
+    </style>
+
+    <style name="CommonNumberProgressBar_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="unReachedBarColor">#CCCCCC</item>
+        <item name="unReachedBarHeight">@dimen/c_number_pb_height</item>
+        <item name="reachedBarColor">#A0FF0000</item>
+        <item name="reachedBarHeight">@dimen/c_number_pb_height</item>
+        <item name="textColor">#A0FF0000</item>
+        <item name="textSize">@dimen/c_def_text_size</item>
+    </style>
+
+    <!-- RectangleFadeProgressBar style
+    <style name="RectangleFadeProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_progress">0</item>
+        <item name="progress_unreached_color">#80FF0000</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#000000</item>
+        <item name="progress_direction">down_to_up</item>
+    </style>
+    -->
+    <style name="VLineStyle">
+        <item name="android:layout_width">@dimen/gap_1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/c_hline_bg</item>
+    </style>
+
+    <style name="HLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/gap_1</item>
+        <item name="android:background">@color/c_hline_bg</item>
+    </style>
+
+    <style name="VGapStyle">
+        <item name="android:layout_width">@dimen/gap_3</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="HGapStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/gap_3</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <!-- 单输入框（single input dialog）对话框样式 -->
+    <style name="SingleInputDialogButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/c_single_input_dialog_button_height</item>
+        <item name="android:textSize">@dimen/c_def_button_text_size</item>
+        <item name="android:textColor">@color/c_def_dialog_button_textColor</item>
+        <item name="android:background">@drawable/common_bg_button</item>
+    </style>
+
+    <style name="CustomToastAnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_enter_up</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_exit_alpha</item>
+    </style>
+
+</resources>

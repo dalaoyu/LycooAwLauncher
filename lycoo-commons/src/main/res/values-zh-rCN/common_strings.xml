@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for debug or release -->
+    <string name="c_mode_debug">DEBUG</string>
+    <string name="c_mode_release">RELEASE</string>
+
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thurday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+
+    <!-- app Update -->
+    <string name="c_msg_new_version">发现新版本</string>
+    <string name="c_msg_install_now">马上更新</string>
+    <string name="c_msg_install_later">暂不更新</string>
+    <string name="c_msg_downloading">正在下载\u2026</string>
+    <string name="c_msg_verifying">正在校验\u2026</string>
+    <string name="c_msg_installing">正在安装\u2026</string>
+    <string name="c_msg_verify_error">校验失败，请重新下载\u2026</string>
+    <string name="c_msg_download_error">下载失败，请重新下载\u2026</string>
+
+    <string name="c_msg_network_unconnected">网络未连接</string>
+    <string name="c_msg_download_failed_repeat_task">当前任务已在下载列表中</string>
+    <string name="c_msg_download_failed_beyond_max_task_count">下载列中任务数已达上限</string>
+    <string name="c_msg_add_download_task">已添加到下载列表中</string>
+
+    <!-- app exit -->
+    <string name="c_msg_exit">客官，慢走\u2026</string>
+    <string name="c_msg_exit_now">退出</string>
+    <string name="c_msg_exit_later">返回</string>
+
+
+    <string name="c_ok">确定</string>
+    <string name="c_cancel">取消</string>
+    <string name="c_reset">重置</string>
+    <string name="c_network_unavailable">网络未连接</string>
+
+    <string name="c_debug_mode">切换至调试模式</string>
+    <string name="c_release_mode">切换至发布模式</string>
+
+    <string name="c_customer_code_hint">请输入客户编码</string>
+    <string name="c_invalid_customer_code">输入有误，客户编码必须为12位数字</string>
+
+    <string name="c_log_level_hint">请输入log打印级别</string>
+    <string name="c_invalid_log_level">输入有误，log打印级别必须为 1 ~ 5 之间的数字</string>
+
+    <string name="c_style_color">默认</string>
+    <string name="c_style_color_orange">橘色</string>
+    <string name="c_style_color_green">绿色</string>
+    <string name="c_style_color_blue">蓝色</string>
+
+    <string name="c_msg_failed_to_reset_customer_code">重置失败</string>
+
+    <string name="c_authorization_code_hint">请输入授权码</string>
+    <string name="c_msg_invalid_authorization_code">输入有误，授权码必须为12位数字</string>
+
+</resources>

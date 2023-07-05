@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/gap_10"
+        android:paddingRight="@dimen/gap_10"
+        android:textSize="@dimen/c_custom_alert_dialog_message_textsize"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/gap_5"
+        android:layout_marginLeft="@dimen/gap_1"
+        android:layout_marginRight="@dimen/gap_1"
+        android:layout_marginTop="@dimen/gap_5"
+        android:background="@color/c_hline_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/c_custom_alert_dialog_button_width"
+            android:layout_height="@dimen/c_custom_alert_dialog_button_height"
+            android:layout_marginRight="@dimen/gap_10"
+            android:background="@drawable/common_bg_button"
+            android:text="@string/c_cancel"
+            android:textColor="@color/c_def_dialog_button_textColor"
+            android:textSize="@dimen/c_custom_alert_dialog_button_textsize"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/c_custom_alert_dialog_button_width"
+            android:layout_height="@dimen/c_custom_alert_dialog_button_height"
+            android:layout_marginRight="@dimen/gap_10"
+            android:background="@drawable/common_bg_button"
+            android:text="@string/c_ok"
+            android:textColor="@color/c_def_dialog_button_textColor"
+            android:textSize="@dimen/c_custom_alert_dialog_button_textsize"
+            />
+    </LinearLayout>
+
+</LinearLayout>

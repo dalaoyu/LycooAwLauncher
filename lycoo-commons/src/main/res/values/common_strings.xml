@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- for debug or release -->
+    <string name="c_mode_debug">DEBUG</string>
+    <string name="c_mode_release">RELEASE</string>
+
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tues</string>
+    <string name="wednesday">Web</string>
+    <string name="thurday">Thur</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <!-- app Update -->
+    <string name="c_msg_new_version">New version</string>
+    <string name="c_msg_install_now">Update</string>
+    <string name="c_msg_install_later">Later</string>
+    <string name="c_msg_downloading">downloading\u2026</string>
+    <string name="c_msg_verifying">verifying\u2026</string>
+    <string name="c_msg_installing">installing\u2026</string>
+    <string name="c_msg_verify_error">Failed to verify, download again\u2026</string>
+    <string name="c_msg_download_error">Faled to download, try again\u2026</string>
+
+    <string name="c_msg_network_unconnected">Invalid network</string>
+    <string name="c_msg_download_failed_repeat_task">Repeat task</string>
+    <string name="c_msg_download_failed_beyond_max_task_count">Beyond max task count</string>
+    <string name="c_msg_add_download_task">Add task successfully</string>
+    
+    <!-- app exit -->
+    <string name="c_msg_exit">Sure to exit\u2026</string>
+    <string name="c_msg_exit_now">Exit</string>
+    <string name="c_msg_exit_later">Cancel</string>
+
+
+    <string name="c_ok">OK</string>
+    <string name="c_cancel">Cancel</string>
+    <string name="c_reset">Reset</string>
+    <string name="c_network_unavailable">network unavailable</string>
+
+    <string name="c_debug_mode">Switch to debug mode</string>
+    <string name="c_release_mode">Switch to release mode</string>
+
+    <string name="c_customer_code_hint">Please input customer code</string>
+    <string name="c_invalid_customer_code">Customer code must be 12</string>
+
+    <string name="c_log_level_hint">Please setup log level</string>
+    <string name="c_invalid_log_level">Log level must be between 1 and 5</string>
+
+    <string name="c_style_color">Default</string>
+    <string name="c_style_color_orange">Orange</string>
+    <string name="c_style_color_green">Green</string>
+    <string name="c_style_color_blue">Blue</string>
+
+    <string name="c_msg_failed_to_reset_customer_code">Failed to reset customer code</string>
+    
+    <string name="c_authorization_code_hint">Please input authorization code</string>
+    <string name="c_msg_invalid_authorization_code">Authorization code must be 12</string>
+    <string name="style_normal">normal</string>
+</resources>

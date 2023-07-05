@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- -->
+    <!--<color name="style_color_base">#10FFFFFF</color>-->
+    <color name="style_color_base">#25FFFFFF</color>
+    <color name="style_color_default">#A0FF0000</color>
+    <color name="style_color_orange">#FF5000</color>
+    <color name="style_color_green">#FF5000</color>
+    <color name="style_color_blue">#FF5000</color>
+
+    <!-- list selector -->
+    <color name="list_selector_background_disabled">#F0FFFFFF</color>
+    <color name="list_selector_background_transition_default">#A0FF0000</color>
+    <color name="list_selector_background_transition_orange">#FF5000</color>
+    <color name="list_selector_background_transition_green">#FF5000</color>
+    <color name="list_selector_background_transition_blue">#FF5000</color>
+    <color name="list_selector_background_focus_default">#88FF0000</color>
+    <color name="list_selector_background_focus_orange">#A0FF5000</color>
+    <color name="list_selector_background_focus_green">#A0FF5000</color>
+    <color name="list_selector_background_focus_blue">#A0FF5000</color>
+
+    <color name="translate">#00000000</color>
+    <color name="c_hline_bg">#50FFFFFF</color>
+    <color name="c_vline_bg">#A0FFFFFF</color>
+
+    <color name="c_app_exit_dialog_container_bg">#30000000</color>
+
+    <color name="c_def_button_focus">#A0FF0000</color>
+    <color name="c_def_button">#10FFFFFF</color>
+    <color name="c_def_textview">#FFFFFF</color>
+    <color name="c_def_dialog_bg">#F0000000</color>
+    <color name="c_def_dialog_button_textColor">#E1E5EC</color>
+    <color name="c_bg_message_dialog">@color/c_def_dialog_bg</color>
+
+    <!-- CustomToast -->
+    <color name="c_bg_custom_toast_error">#F0E20000</color>
+    <color name="c_bg_custom_toast_warn">#F0FF8C00</color>
+    <color name="c_bg_custom_toast_info">#F010893E</color>
+    <color name="c_bg_custom_toast_none">#F00138CE</color>
+    <color name="c_edge_custom_toast_error">#E20000</color>
+    <color name="c_edge_custom_toast_warn">#FF8C00</color>
+    <color name="c_edge_custom_toast_info">#10893E</color>
+    <color name="c_edge_custom_toast_none">#0138CE</color>
+
+    <!-- Dialog -->
+    <!--<color name="c_dark_dialog_bg">#1E1E1E</color>-->
+    <color name="c_dark_dialog_bg">#F0000000</color>
+
+    <color name="ltcolorAccent">#FF8081</color>
+    <color name="progressBg">#FFDDDDDD</color>
+    <color name="secondProgressColor">#f8db90</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

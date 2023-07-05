@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gap_1">1dp</dimen>
+    <dimen name="gap_2">2dp</dimen>
+    <dimen name="gap_3">3dp</dimen>
+    <dimen name="gap_4">4dp</dimen>
+    <dimen name="gap_5">5dp</dimen>
+    <dimen name="gap_6">6dp</dimen>
+    <dimen name="gap_7">7dp</dimen>
+    <dimen name="gap_8">8dp</dimen>
+    <dimen name="gap_9">9dp</dimen>
+    <dimen name="gap_10">10dp</dimen>
+    <dimen name="gap_15">15dp</dimen>
+    <dimen name="gap_16">16dp</dimen>
+    <dimen name="gap_20">20dp</dimen>
+    <dimen name="gap_30">30dp</dimen>
+    <dimen name="gap_40">40dp</dimen>
+    <dimen name="gap_50">50dp</dimen>
+    <dimen name="gap_70">70dp</dimen>
+    <dimen name="gap_100">100dp</dimen>
+    <dimen name="gap_150">150dp</dimen>
+    <dimen name="gap_200">200dp</dimen>
+
+
+    <dimen name="c_def_button_height">80dp</dimen>
+    <dimen name="c_def_button_text_size">25dp</dimen>
+
+    <!-- default textview -->
+    <dimen name="c_def_text_size">22dp</dimen>
+    <dimen name="c_def_text_line_spacing_extra">10dp</dimen>
+
+    <!-- NumberProgressBar -->
+    <dimen name="c_number_pb_height">8dp</dimen>
+
+    <!-- app Upate dialog-->
+
+    <!-- app exit dialog -->
+    <dimen name="c_app_exit_dialog_container_width">400dp</dimen>
+    <dimen name="c_app_exit_dialog_container_height">720dp</dimen>
+    <dimen name="c_app_exit_dialog_tips_text_size">40dp</dimen>
+
+    <!-- custom alert dialog -->
+    <dimen name="c_custom_alert_dialog_width">700dp</dimen>
+    <dimen name="c_custom_alert_dialog_height">260dp</dimen>
+    <dimen name="c_custom_alert_dialog_button_width">120dp</dimen>
+    <dimen name="c_custom_alert_dialog_button_height">60dp</dimen>
+    <dimen name="c_custom_alert_dialog_button_textsize">25dp</dimen>
+    <dimen name="c_custom_alert_dialog_message_textsize">30dp</dimen>
+
+    <!--single input dialog -->
+    <dimen name="c_single_input_dialog_width">500dp</dimen>
+    <dimen name="c_single_input_dialog_height">200dp</dimen>
+    <dimen name="c_single_input_dialog_button_height">100dp</dimen>
+    <dimen name="c_single_input_dialog_textsize">30dp</dimen>
+
+    <dimen name="c_screensaver_image_width">640dp</dimen>
+    <dimen name="c_screensaver_image_height">360dp</dimen>
+
+    <!-- labelview -->
+    <dimen name="default_label_title_size">10sp</dimen>
+    <dimen name="default_label_content_size">12sp</dimen>
+    <dimen name="default_label_top_padding">15dp</dimen>
+    <dimen name="default_label_bottom_padding">10dp</dimen>
+
+    <!-- CornelMark -->
+    <dimen name="def_corner_mark_label_title_size">10sp</dimen>
+    <dimen name="def_corner_mark_label_content_size">12sp</dimen>
+    <dimen name="def_corner_mark_label_top_padding">15dp</dimen>
+    <dimen name="def_corner_mark_label_bottom_padding">10dp</dimen>
+
+    <!-- MessageDialog -->
+    <dimen name="c_message_dialog_width">600dp</dimen>
+    <dimen name="c_message_dialog_height">150dp</dimen>
+    <dimen name="c_message_dialog_text_padding_left">20dp</dimen>
+    <dimen name="c_message_dialog_text_padding_right">20dp</dimen>
+    <dimen name="c_message_dialog_text_size">28dp</dimen>
+
+    <!-- Custom Toast -->
+    <dimen name="c_custom_toast_padding_top">20dp</dimen>
+    <dimen name="c_custom_toast_padding_bottom">20dp</dimen>
+    <dimen name="c_custom_toast_edge_width">20dp</dimen>
+    <dimen name="c_custom_toast_icon_size">80dp</dimen>
+    <dimen name="c_custom_toast_icon_margin_left">20dp</dimen>
+    <dimen name="c_custom_toast_icon_margin_right">20dp</dimen>
+    <dimen name="c_custom_toast_text_width">1140dp</dimen>
+    <dimen name="c_custom_toast_text_padding_left">10dp</dimen>
+    <dimen name="c_custom_toast_text_padding_right">10dp</dimen>
+    <dimen name="c_custom_toast_text_size">30sp</dimen>
+</resources>

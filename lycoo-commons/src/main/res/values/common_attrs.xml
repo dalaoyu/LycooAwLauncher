@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ProgreeBar -->
+    <attr name="progress" format="integer"/>
+    <attr name="max" format="integer"/>
+    <attr name="unReachedBarHeight" format="dimension"/>
+    <attr name="unReachedBarColor" format="color"/>
+    <attr name="reachedBarHeight" format="dimension"/>
+    <attr name="reachedBarColor" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+    <attr name="textOffset" format="dimension"/>
+    <attr name="textVisibility">
+        <enum name="visible" value="0"/>
+        <enum name="invisible" value="1"/>
+    </attr>
+
+    <attr name="radius" format="dimension"/>
+    <attr name="strokeWidth" format="dimension"/>
+    <attr name="circleColor" format="color"/>
+    <attr name="ringColor" format="color"/>
+    <attr name="ringBackgroundColor" format="color"/>
+
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="left_bottom" value="1"/>
+        <enum name="right_top" value="2"/>
+        <enum name="right_bottom" value="3"/>
+    </attr>
+
+    <attr name="rightPadding" format="dimension"/>
+
+    <attr name="backgroundColor" format="color"/>
+    <attr name="textTitleColor" format="color"/>
+    <attr name="textContentColor" format="color"/>
+    <attr name="textTitle" format="string"/>
+    <attr name="textContent" format="string"/>
+    <attr name="textTitleSize" format="dimension"/>
+    <attr name="textContentSize" format="dimension"/>
+    <attr name="labelTopPadding" format="dimension"/>
+    <attr name="labelCenterPadding" format="dimension"/>
+    <attr name="labelBottomPadding" format="dimension"/>
+    <attr name="labelTopDistance" format="dimension"/>
+    <attr name="textTitleStyle">
+        <enum name="normal" value="0"/>
+        <enum name="italic" value="1"/>
+        <enum name="bold" value="2"/>
+    </attr>
+    <attr name="textContentStyle">
+        <enum name="normal" value="0"/>
+        <enum name="italic" value="1"/>
+        <enum name="bold" value="2"/>
+    </attr>
+    <attr name="direction">
+        <enum name="leftTop" value="-45"/>
+        <enum name="rightTop" value="45"/>
+    </attr>
+
+    <!-- NumberProgressBar **************************************************** -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress"/>
+        <attr name="max"/>
+        <attr name="unReachedBarHeight"/>
+        <attr name="unReachedBarColor"/>
+        <attr name="reachedBarHeight"/>
+        <attr name="reachedBarColor"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+        <attr name="textOffset"/>
+        <attr name="textVisibility"/>
+    </declare-styleable>
+
+    <!-- RingProgressBar -->
+    <declare-styleable name="RingProgressBar">
+        <attr name="progress"/>
+        <attr name="max"/>
+        <attr name="radius"/>
+        <attr name="strokeWidth"/>
+        <attr name="circleColor"/>
+        <attr name="ringColor"/>
+        <attr name="ringBackgroundColor"/>
+        <attr name="textSize"/>
+        <attr name="textVisibility"/>
+    </declare-styleable>
+
+    <!-- ShimmerTextView ********************************************************** -->
+    <declare-styleable name="ShimmerTextView">
+        <attr name="begin_color" format="color"/>
+        <attr name="middle_color" format="color"/>
+        <attr name="end_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerTextViewStyle_Themes">
+        <attr name="shimmerTextViewStyle" format="reference"/>
+    </declare-styleable>
+
+
+    <!-- ArcMenu ****************************************************************** -->
+    <declare-styleable name="ArcMenu">
+        <attr name="radius"/>
+        <attr name="position"/>
+    </declare-styleable>
+
+    <!-- SlidingMenu(侧滑菜单) **************************************************** -->
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding"/>
+    </declare-styleable>
+
+    <!-- LabelView(角标) ********************************************************* -->
+    <declare-styleable name="CornerMark">
+        <attr name="backgroundColor"/>
+        <attr name="textTitleColor"/>
+        <attr name="textContentColor"/>
+        <attr name="textTitle"/>
+        <attr name="textContent"/>
+        <attr name="textTitleSize"/>
+        <attr name="textContentSize"/>
+        <attr name="labelTopPadding"/>
+        <attr name="labelCenterPadding"/>
+        <attr name="labelBottomPadding"/>
+        <attr name="labelTopDistance"/>
+        <attr name="textTitleStyle"/>
+        <attr name="textContentStyle"/>
+        <attr name="direction"/>
+    </declare-styleable>
+
+    <!-- LoadingIndicatorView(加载指示器) ********************************************-->
+    <declare-styleable name="LoadingIndicatorView">
+        <attr name="minWidth" format="dimension"/>
+        <attr name="maxWidth" format="dimension"/>
+        <attr name="minHeight" format="dimension"/>
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="indicatorName" format="string"/>
+        <attr name="indicatorColor" format="color"/>
+    </declare-styleable>
+
+    <!-- AutoPlayRecyclerView -->
+    <declare-styleable name="AutoPlayRecyclerView">
+        <attr name="timeInterval" format="integer"/>
+        <attr name="playDirection" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Circle ProgressBar -->
+    <declare-styleable name="CircleProgressBar">
+        <!--默认圆的颜色-->
+        <attr name="defaultColor" format="color"/>
+        <!--进度条的颜色-->
+        <attr name="reachedColor" format="color"/>
+        <!--默认圆的高度-->
+        <attr name="defaultHeight" format="dimension"/>
+        <!--进度条的高度-->
+        <attr name="reachedHeight" format="dimension"/>
+        <!--圆的半径-->
+        <attr name="circleRadius" format="dimension"/>
+    </declare-styleable>
+
+    <!-- 仿百度的语音助手(波浪动画控件) ********************************************************* -->
+    <declare-styleable name="VolumeWaveView">
+        <attr name="wave_height1" format="dimension" />
+        <attr name="wave_height2" format="dimension" />
+        <attr name="wave_height3" format="dimension" />
+
+        <attr name="gradient1_color0" format="color" />
+        <attr name="gradient1_color1" format="color" />
+
+        <attr name="gradient2_color0" format="color" />
+        <attr name="gradient2_color1" format="color" />
+
+        <attr name="gradient3_color0" format="color" />
+        <attr name="gradient3_color1" format="color" />
+
+        <attr name="gradient4_color0" format="color" />
+        <attr name="gradient4_color1" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulProgressbar">
+        <attr name="styleBar" format="string|reference"/>
+        <attr name="animation" format="boolean"/>
+        <attr name="maxBar" format="integer|reference"/>
+        <attr name="progressBar" format="integer|reference"/>
+        <attr name="secondProgressBar" format="integer|reference"/>
+        <attr name="backgroundColorBar" format="color|reference"/>
+        <attr name="progressColor1" format="color|reference"/>
+        <attr name="progressColor2" format="color|reference"/>
+    </declare-styleable>
+
+</resources>
