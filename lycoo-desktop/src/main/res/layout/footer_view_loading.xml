@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <com.lycoo.commons.view.SimpleViewSwitcher
+        android:id="@+id/svs_progress"
+        android:layout_width="@dimen/simple_load_footer_progress_width"
+        android:layout_height="@dimen/simple_load_footer_progress_height"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/simple_load_footer_hint_margin_left"
+        android:textSize="@dimen/simple_load_footer_hint_size"
+        tools:ignore="RtlHardcoded"/>
+
+</LinearLayout>

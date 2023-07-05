@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.lycoo.desktop.ui.MyRecyclerView
+        android:id="@+id/rlv_lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/img_empty"
+        android:visibility="gone"
+        android:textSize="@dimen/header_label_text_size"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="暂无歌词"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

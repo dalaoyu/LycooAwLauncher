@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 填充的颜色 -->
+    <solid android:color="@color/base_normal" />
+
+    <!-- 边框 -->
+    <stroke
+        android:width="@dimen/gap_5"
+        android:color="@color/base_focused" />
+
+    <padding
+        android:left="@dimen/gap_5"
+        android:right="@dimen/gap_5"
+        android:top="@dimen/gap_5"
+        android:bottom="@dimen/gap_5"
+        />
+
+    <!-- 4个角的角度 -->
+    <corners android:radius="0dp" />
+
+</shape>

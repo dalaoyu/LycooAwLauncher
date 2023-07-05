@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/UnFocusable"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_item_height"
+        android:background="@color/base_normal"/>
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        style="@style/UnFocusable"
+        android:layout_width="@dimen/app_item_icon_width"
+        android:layout_height="@dimen/app_item_icon_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/app_item_icon_margin_top"
+        android:scaleType="fitXY"
+        android:src="@drawable/def_ic_desktop_item"/>
+
+    <TextView
+        android:id="@+id/tv_label"
+        style="@style/CommonTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/app_item_label_margin_bottom"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/def_textview_padding_left"
+        android:paddingRight="@dimen/def_textview_padding_right"
+        tools:ignore="RtlHardcoded"/>
+
+</FrameLayout>

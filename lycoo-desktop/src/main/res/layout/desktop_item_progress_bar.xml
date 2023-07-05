@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/desktop_item_progress_bar"
+                android:gravity="center_horizontal">
+
+    <!--
+    <com.lycoo.commons.view.NumberProgressBar
+        android:id="@+id/pb_download"
+        style="@style/CommonNumberProgressBar_Red"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/desktop_item_download_pb_height"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:reachedBarHeight="@dimen/desktop_item_download_pb_height"
+        app:textVisibility="invisible"
+        app:unReachedBarHeight="@dimen/desktop_item_download_pb_height"
+        />
+    -->
+
+    <com.lycoo.commons.view.RingProgressBar
+        android:id="@+id/pb_download"
+        style="@style/UnFocusable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:circleColor="@android:color/transparent"
+        app:radius="@dimen/def_desktop_item_download_pb_radius"
+        app:ringBackgroundColor="@color/desktop_item_download_pb_ring_bg"
+        app:ringColor="@color/desktop_item_download_pb_ring"
+        app:strokeWidth="@dimen/def_desktop_item_download_pb_stroke_width"
+        app:textSize="@dimen/def_desktop_item_download_pb_text_size"
+        app:textVisibility="invisible"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb_install"
+        style="@style/UnFocusable"
+        android:layout_width="@dimen/def_desktop_item_install_pb_width"
+        android:layout_height="@dimen/def_desktop_item_install_pb_height"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar_circle_indeterminate"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/UnFocusable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxLines="1"
+        android:textSize="45sp"
+        android:textColor="@color/desktop_item_progress_bar_text"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/selection_dialog_title_margin_bottom"
+        android:layout_marginTop="@dimen/selection_dialog_title_margin_top"
+        android:paddingLeft="@dimen/selection_dialog_title_padding_left"
+        android:textSize="@dimen/selection_dialog_title_text_size"
+        tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    <View
+        style="@style/HLineStyle"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </RadioGroup>
+
+
+    <View
+        style="@style/HLineStyle"/>
+
+    <include
+        layout="@layout/common_horizontal_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/selection_dialog_item_height"/>
+
+</LinearLayout>

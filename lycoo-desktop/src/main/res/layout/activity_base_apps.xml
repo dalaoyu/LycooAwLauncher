@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lycoo.desktop.base.BaseAppsActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:paddingLeft="@dimen/header_padding_left"
+        android:paddingRight="@dimen/header_padding_right"
+        tools:ignore="RtlHardcoded">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:layout_centerVertical="true"
+            android:background="@drawable/common_bg_icon"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_header_back"
+            tools:ignore="RtlHardcoded"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/header_icon_horizontal_space"
+            android:layout_toRightOf="@id/ib_back"
+            android:textColor="@color/c_def_textview"
+            android:textSize="@dimen/header_label_text_size"/>
+
+        <com.lycoo.commons.widget.ShimmerTextView
+            android:id="@+id/tv_prompts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:textSize="@dimen/header_label_text_size"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <GridView
+            android:id="@+id/gv_apps"
+            style="@style/GridViewStyle"
+            android:layout_marginTop="@dimen/base_apps_gridview_margin_top"
+            android:numColumns="5"
+            />
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/c_def_textview"
+            android:textSize="@dimen/gridview_empty_view_text_size"
+            />
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="@dimen/gridview_loading_pb_width"
+            android:layout_height="@dimen/gridview_loading_pb_height"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/pb_grid_view_loading"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

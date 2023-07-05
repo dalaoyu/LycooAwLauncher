@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <!-- 填充的颜色 -->
+            <solid android:color="@color/desktop_item_menu_item_normal"/>
+
+            <!-- 边框 -->
+            <stroke
+                android:width="@dimen/gap_5"
+                android:color="@color/desktop_item_menu_item_focus"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- 填充的颜色 -->
+            <solid android:color="@color/desktop_item_menu_item_focus"/>
+        </shape>
+    </item>
+    <item android:drawable="@color/desktop_item_menu_item_normal"/>
+</selector>

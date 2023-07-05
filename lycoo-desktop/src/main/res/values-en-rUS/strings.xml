@@ -1,0 +1,60 @@
+<resources>
+    <string name="def_desktop_item_label">Not configured</string>
+    <string name="replaceable">Replaceable</string>
+
+    <string name="msg_edit_desktop_item">Operate item by long press</string>
+    <string name="msg_desktop_item_config_error">Invalid configuration</string>
+    <string name="msg_failed_to_open_desktop_item">Failed to open item</string>
+
+    <string name="status_prepareing">Prepareing</string>
+    <string name="status_canceled">Canceling</string>
+    <string name="status_downloading">Downloading</string>
+    <string name="status_verifying">Verifying</string>
+    <string name="status_installing">Installing</string>
+
+    <string name="msg_prepare_desktop_item_info_failed">获取坑位信息失败</string>
+    <string name="msg_network_unconnected">Network error</string>
+    <string name="msg_check_md5_failed">Verify error</string>
+    <string name="msg_install_failed">Install error</string>
+    <string name="msg_install_succeeded">Install success</string>
+    <string name="msg_download_failed">Download error</string>
+    <string name="msg_check_download_failed">Repetitive operation </string>
+    <string name="msg_stop_download">Stoped task</string>
+    <string name="msg_cancel_task">Canceled task</string>
+    <string name="msg_stop_install">Installing\u2026, please wait!</string>
+
+    <string name="no_more_apps">No more Apps</string>
+    <string name="menu_bind">Add</string>
+    <string name="menu_replace">Replace</string>
+    <string name="menu_unbind">Remove</string>
+    <string name="menu_uninstall">Uninstall</string>
+    <string name="prompts_bind_app">Choose app</string>
+    <string name="msg_uninstall_system_app">You can not uninstall a system app</string>
+
+    <string name="hint_loading">Loading\u2026</string>
+    <string name="hint_load_end">Load completely</string>
+    <string name="hint_load_error">Load error</string>
+
+    <string name="hint_arrow_refresh_header_normal">Pull refresh</string>
+    <string name="hint_arrow_refresh_header_release">Release to refresh</string>
+    <string name="hint_refreshing">Refreshing\u2026</string>
+    <string name="hint_refresh_done">Refresh completely</string>
+    <string name="arrow_refresh_header_last_time">Last time</string>
+
+    <string name="loading">Loading\u2026</string>
+    <string name="buffering">Buffering\u2026</string>
+    <string name="msg_invalid_number">Invalid number</string>
+
+    <string name="device_usb">USBC</string>
+    <string name="device_internal_card">Local</string>
+    <string name="device_external_card">TF card</string>
+    <string name="msg_select_no_device">You choose nothing</string>
+
+    <string name="prompt_edit_app">Operate item by long press or MENU key</string>
+    <string name="prompt_uninstall_app">Uninstall app by long press</string>
+
+    <string name="title_video_list">Media list</string>
+    <string name="search">Search</string>
+    <string name="hint_dance_search">Please input data</string>
+    <string name="msg_empty_keyword">Empty data</string>
+</resources>

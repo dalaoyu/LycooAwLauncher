@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_prompts"
+        style="@style/CommonTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/apps_dialog_prompts_margin_top"
+        android:gravity="center"
+        android:text="@string/prompts_bind_app"
+        android:textSize="@dimen/apps_dialog_prompts_size"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gv_apps"
+            style="@style/GridViewStyle"
+            android:layout_marginTop="@dimen/dialog_gridview_margin_top"
+            />
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/c_def_textview"
+            android:textSize="@dimen/gridview_empty_view_text_size"
+            />
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="@dimen/gridview_loading_pb_width"
+            android:layout_height="@dimen/gridview_loading_pb_height"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/pb_grid_view_loading"/>
+    </FrameLayout>
+</RelativeLayout>

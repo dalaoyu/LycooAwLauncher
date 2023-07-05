@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="green">#0EAE52</color>
+    <color name="dark_green">#217346</color>
+    <color name="blue">#0138CE</color>
+    <color name="light_blue">#0078D7</color>
+    <color name="pink">#D76789</color>
+    <color name="red">#B20404</color>
+    <color name="dark_red">#8A0707</color>
+    <color name="brick_red">#DA453F</color>
+    <color name="gray">#50ffffff</color>
+    <color name="deep_red">#F53E76</color>
+    <color name="orange">#FF5000</color>
+    <color name="light_orange">#FD7539</color>
+    <color name="purple">#8000BF</color>
+    <color name="dark_purple">#5C00BA</color>
+    <color name="medium_purple">#BB43F3</color>
+    <color name="light_purple">#883388</color>
+    <color name="yellow">#EBAF2A</color>
+    <color name="deep_yellow">#FFBA26</color>
+    <color name="indigo">#8260FD</color>
+    <color name="dark_blue">#416AFA</color>
+    <color name="deep_blue">#2397FE</color>
+    <color name="light_green">#02D8BC</color>
+    <color name="white">#ffffff</color>
+
+    <!-- 基本颜色定义 -->
+    <color name="base_bg">#FF1E2228</color>
+    <color name="base_normal">#56595E</color>
+    <color name="base_focused">#ffff00</color>
+    <color name="base_pressed">#0078D7</color>
+    <color name="base_icon">#3477F5</color>
+    <color name="base_text">#BEBEBE</color>
+
+    <!-- list selector -->
+    <color name="list_selector_background_disabled">#F0FFFFFF</color>
+    <color name="list_selector_background_transition">#E81123</color>
+    <color name="list_selector_background_focus">@color/base_solid_focus_color</color>
+
+    <color name="base_solid_focus_color">#A0FF0000</color>
+    <color name="base_stroke_focus_color">#ffff00</color>
+
+    <color name="tab_normal">#F0FFFFFF</color>
+    <color name="tab_focus">@color/base_focused</color>
+
+    <!-- 坑位 -->
+    <color name="item_border_normal">@color/base_normal</color>
+    <color name="item_border_focused">@color/base_focused</color>
+    <color name="item_border_pressed">@color/base_pressed</color>
+    <color name="item_cover_normal">#35FFFFFF</color>
+    <color name="item_cover_disable">#25FFFFFF</color>
+    <color name="item_cover_focused">@color/base_focused</color>
+    <color name="item_cover_pressed">@color/base_pressed</color>
+    <color name="item_ripple">#80FFFFFF</color>
+
+    <!-- StatusBar -->
+    <color name="status_bar_vertical_line">#50FFFFFF</color>
+
+    <!-- DesktopItem -->
+    <color name="def_desktop_item">#c03f5aa9</color>
+    <color name="desktop_item_ripple_color">#80ffff00</color>
+    <color name="desktop_item_label">#F0FFFFFF</color>
+    <color name="desktop_item_stroke_focus">@color/base_stroke_focus_color</color>
+    <color name="desktop_item_corner_mark">#FF0000</color>
+    <color name="desktop_item_progress_bar">#a0000000</color>
+    <color name="desktop_item_progress_bar_text">#ffffff</color>
+    <color name="desktop_item_download_pb_ring_bg">#50FFFFFF</color>
+    <color name="desktop_item_download_pb_ring">#E81123</color>
+
+    <!-- DockItem -->
+    <color name="def_dock_item">@color/base_normal</color>
+    <color name="dock_item_ripple_color">#80ffff00</color>
+
+    <color name="desktop_item_menu_item_normal">@color/base_normal</color>
+    <color name="desktop_item_menu_item_focus">@color/base_stroke_focus_color</color>
+
+    <!-- MenuItem -->
+    <color name="menu_item_bg">@color/base_normal</color>
+    <color name="menu_item_text_color">#BEBEBE</color>
+    <color name="menu_item_switch_normal">#aaaaaa</color>
+    <color name="menu_item_switch_checked">#31c27c</color>
+    <color name="menu_item_seekbar_text">@color/base_text</color>
+
+    <color name="buffering_panel_bg">#C0000000</color>
+    <color name="loading_panel_bg">#C0000000</color>
+    <color name="file_number_bg">#c0000000</color>
+
+    <!-- -->
+    <color name="bg_icon_focus">#E81123</color>
+    <color name="bg_icon_white_focus">#80FFFFFF</color>
+    <color name="bg_icon_green">#350EAE52</color>
+    <color name="bg_icon_green_focus">#0EAE52</color>
+
+    <color name="mediumslateblue">#7B68EE</color> <!--中暗蓝色 -->
+    <color name="salmon">#FA8072</color> <!--鲜肉色 -->
+
+    <color name="base_color">#25FFFFFF</color>
+</resources>

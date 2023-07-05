@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval">
+
+    <solid android:color="@color/item_border_focused"/>
+
+    <padding
+        android:bottom="@dimen/item_border_padding"
+        android:left="@dimen/item_border_padding"
+        android:right="@dimen/item_border_padding"
+        android:top="@dimen/item_border_padding"/>
+</shape>

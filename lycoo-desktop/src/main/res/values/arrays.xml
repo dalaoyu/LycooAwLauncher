@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="container_actions">
+        <item>30__com.lycoo.action.TV_CONTAINER</item>
+        <item>31__com.lycoo.action.AOD_CONTAINER</item>
+        <item>32__com.lycoo.action.MUSIC_CONTAINER</item>
+        <item>33__com.lycoo.action.GAME_CONTAINER</item>
+        <item>34__com.lycoo.action.EDUCATION_CONTAINER</item>
+        <item>35__com.lycoo.action.APP_CONTAINER</item>
+        <item>36__com.lycoo.action.SETUP_CONTAINER</item>
+        <item>37__com.lycoo.action.TOOLS_CONTAINER</item>
+        <item>38__com.lycoo.action.EXTRUDE_RECOMMENDATION_CONTAINER</item>
+        <item>39__com.lycoo.action.COMMON_RECOMMENDATION_CONTAINER</item>
+    </string-array>
+
+    <string-array name="replaceable_apps" translatable="false">
+        <item>com.lycoo.lancy.dance</item>
+        <item>com.togic.livevideo</item>
+        <item>com.lycoo.opera.apk</item>
+    </string-array>
+
+
+</resources>

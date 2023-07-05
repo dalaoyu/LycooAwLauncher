@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        layout="@layout/loading_panel"
+        android:layout_width="@dimen/loading_panel_width"
+        android:layout_height="@dimen/loading_panel_height"
+        android:layout_centerInParent="true"/>
+
+    <include
+        layout="@layout/buffering_panel"
+        android:layout_width="@dimen/bufferring_panel_width"
+        android:layout_height="@dimen/bufferring_panel_height"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/iv_drawer"
+        android:layout_width="@dimen/files_drawer_width"
+        android:layout_height="@dimen/files_drawer_height"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_drawer_right_arrow"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_header_height"
+        android:background="@color/c_def_dialog_bg"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/header_padding_left"
+        android:paddingRight="@dimen/header_padding_right"
+        android:visibility="gone"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@color/c_def_textview"
+            android:textSize="@dimen/header_label_text_size"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/control_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/control_panel_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/c_def_dialog_bg"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_download"
+            android:layout_width="@dimen/control_panel_icon_size"
+            android:layout_height="@dimen/control_panel_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_download_green"/>
+
+        <ImageView
+            android:id="@+id/iv_prev"
+            android:layout_width="@dimen/control_panel_icon_size"
+            android:layout_height="@dimen/control_panel_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:layout_toRightOf="@+id/iv_download"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_prev"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_play_pause"
+            android:layout_width="@dimen/control_panel_icon_play_pause_size"
+            android:layout_height="@dimen/control_panel_icon_play_pause_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:layout_toRightOf="@+id/iv_prev"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="@dimen/control_panel_icon_size"
+            android:layout_height="@dimen/control_panel_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:layout_toRightOf="@+id/iv_play_pause"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_next"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_volume_down"
+            android:layout_width="@dimen/control_panel_icon_size"
+            android:layout_height="@dimen/control_panel_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:layout_toRightOf="@+id/iv_next"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_volume_down"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_volume_up"
+            android:layout_width="@dimen/control_panel_icon_size"
+            android:layout_height="@dimen/control_panel_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/control_panel_icon_horizontal_space"
+            android:layout_toRightOf="@+id/iv_volume_down"
+            android:background="@drawable/common_bg_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_volume_up"
+            tools:ignore="RtlHardcoded"/>
+
+        <TextView
+            android:id="@+id/tv_cur_position"
+            style="@style/CommonTextViewStyle"
+            android:layout_width="@dimen/control_panel_text_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_volume_up"
+            android:gravity="center_vertical|right"
+            tools:ignore="RtlHardcoded"/>
+
+        <TextView
+            android:id="@+id/tv_duration"
+            style="@style/CommonTextViewStyle"
+            android:layout_width="@dimen/control_panel_text_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|left"
+            tools:ignore="RtlHardcoded"/>
+
+        <!--android:thumb="@android:color/transparent"-->
+        <SeekBar
+            android:id="@+id/sb_progress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekbar_height"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_duration"
+            android:layout_toRightOf="@+id/tv_cur_position"
+            android:max="100"
+            android:maxHeight="@dimen/gap_1"
+            android:minHeight="@dimen/gap_1"
+            android:paddingBottom="@dimen/seekbar_padding_bottom"
+            android:paddingTop="@dimen/seekbar_padding_top"
+            android:progressDrawable="@drawable/seekbar_progress_drawable"
+            android:thumb="@drawable/seekbar_thumb_green"
+            tools:ignore="RtlHardcoded"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="@dimen/file_number_width"
+        android:layout_height="@dimen/file_number_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_file_number"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/c_def_textview"
+        android:textScaleX="1.3"
+        android:textSize="@dimen/file_number_text_size"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

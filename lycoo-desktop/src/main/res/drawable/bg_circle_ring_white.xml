@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true"
+          android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/bg_icon_focus"/>
+        </shape>
+    </item>
+
+    <item android:state_focused="true"
+          android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/base_normal"/>
+
+            <stroke
+                android:width="@dimen/def_desktop_item_gap"
+                android:color="@color/desktop_item_stroke_focus"/>
+        </shape>
+    </item>
+
+    <item android:state_focused="false"
+          android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/bg_icon_focus"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/base_normal"/>
+        </shape>
+    </item>
+</selector>

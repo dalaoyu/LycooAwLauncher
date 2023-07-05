@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/iv_arrow"
+        android:textColor="@color/menu_item_text_color"
+        android:textSize="@dimen/menu_item_seekbar_text_size"
+        tools:text="4.0.0" />
+
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="@dimen/menu_item_icon_size"
+        android:layout_height="@dimen/menu_item_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:duplicateParentState="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_menu_item_arrow" />
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common TextView -->
+    <dimen name="def_textview_padding_left">15dp</dimen>
+    <dimen name="def_textview_padding_right">15dp</dimen>
+    <dimen name="def_textview_padding_top">15dp</dimen>
+    <dimen name="def_textview_padding_bottom">15dp</dimen>
+    <dimen name="def_empty_view_text_size">75sp</dimen>
+
+    <!-- default circle progressBar size -->
+    <dimen name="def_circle_pb_width">180dp</dimen>
+    <dimen name="def_circle_pb_height">180dp</dimen>
+    <dimen name="def_icon_size">120dp</dimen>
+
+    <!-- page tab -->
+    <dimen name="tab_container_height">90dp</dimen>
+    <dimen name="tab_container_margin_left">60dp</dimen>
+    <dimen name="tab_container_margin_top">120dp</dimen>
+    <dimen name="tab_width">225dp</dimen>
+    <dimen name="tab_padding_left">0dp</dimen>
+    <dimen name="tab_padding_right">0dp</dimen>
+    <dimen name="tab_text_size">60sp</dimen>
+    <dimen name="tab_text_selected_size">66dp</dimen>
+    <dimen name="tab_padding_bottom">24dp</dimen>
+    <dimen name="tab_indicator_width">180dp</dimen>
+    <dimen name="tab_indicator_height">9dp</dimen>
+    <dimen name="tab_indicator_margin_left">22dp</dimen>
+
+    <!-- desktop item -->
+    <dimen name="def_desktop_item_gap">5dp</dimen>
+    <dimen name="def_desktop_item_corner_mark_top_padding">37dp</dimen>
+    <dimen name="def_desktop_item_corner_mark_content_text_size">22sp</dimen>
+    <dimen name="def_desktop_item_label_text_size">27sp</dimen>
+    <dimen name="def_desktop_item_download_pb_radius">75dp</dimen>
+    <dimen name="def_desktop_item_download_pb_stroke_width">15dp</dimen>
+    <dimen name="def_desktop_item_download_pb_text_size">37sp</dimen>
+    <dimen name="def_desktop_item_install_pb_width">180dp</dimen>
+    <dimen name="def_desktop_item_install_pb_height">180dp</dimen>
+    <dimen name="def_desktop_item_pb_text_size">30sp</dimen>
+
+    <!-- dock item -->
+    <dimen name="def_dock_item_gap">@dimen/def_desktop_item_gap</dimen>
+    <dimen name="def_dock_item_corner_mark_top_padding">37dp</dimen>
+    <dimen name="def_dock_item_corner_mark_content_text_size">22sp</dimen>
+    <dimen name="def_dock_item_label_text_size">37sp</dimen>
+
+    <!-- app item layout -->
+    <dimen name="app_item_width">315dp</dimen>
+    <dimen name="app_item_height">255dp</dimen>
+    <dimen name="app_item_icon_width">120dp</dimen>
+    <dimen name="app_item_icon_height">120dp</dimen>
+    <dimen name="app_item_icon_margin_top">45dp</dimen>
+    <dimen name="app_item_label_height">45dp</dimen>
+    <dimen name="app_item_label_margin_bottom">15dp</dimen>
+
+    <!--DesktopItem menu dialog -->
+    <dimen name="app_menu_dialog_width">450dp</dimen>
+    <dimen name="app_menu_dialog_button_height">150dp</dimen>
+    <dimen name="app_menu_dialog_button_text_size">45dp</dimen>
+    <dimen name="app_menu_dialog_icon_margin_left">105dp</dimen>
+    <dimen name="app_menu_dialog_label_margin_left">225dp</dimen>
+
+    <!-- apps dialog -->
+    <dimen name="apps_dialog_width">1920dp</dimen>
+    <dimen name="apps_dialog_prompts_margin_top">45dp</dimen>
+    <dimen name="apps_dialog_prompts_size">39sp</dimen>
+
+    <!-- BaseAppsActivity -->
+    <dimen name="base_apps_gridview_margin_top">20dp</dimen>
+
+    <!-- header -->
+    <dimen name="header_height">120dp</dimen>
+    <dimen name="header_label_text_size">42sp</dimen>
+    <dimen name="header_path_margin_right">225dp</dimen>
+    <dimen name="header_path_margin_top">7dp</dimen>
+    <dimen name="header_path_text_size">30sp</dimen>
+    <dimen name="header_icon_size">105dp</dimen>
+    <dimen name="header_icon_horizontal_space">22dp</dimen>
+    <dimen name="header_padding_left">30dp</dimen>
+    <dimen name="header_padding_right">30dp</dimen>
+    <dimen name="header_divider_line_margin">22dp</dimen>
+
+    <dimen name="loading_indicator_widht">120dp</dimen>
+    <dimen name="loading_indicator_height">120dp</dimen>
+    <dimen name="simple_load_footer_height">150dp</dimen>
+    <dimen name="simple_load_footer_progress_width">150dp</dimen>
+    <dimen name="simple_load_footer_progress_height">150dp</dimen>
+    <dimen name="simple_load_footer_hint_margin_left">30dp</dimen>
+    <dimen name="simple_load_footer_hint_size">37sp</dimen>
+
+    <dimen name="arrow_refresh_header_height">150dp</dimen>
+    <dimen name="arrow_refresh_header_margin_top">15dp</dimen>
+    <dimen name="arrow_refresh_header_text_container_min_width">150dp</dimen>
+    <dimen name="arrow_refresh_header_text_size">37sp</dimen>
+    <dimen name="arrow_refresh_header_time_text_size">22sp</dimen>
+    <dimen name="arrow_refresh_header_time_margin_top">7dp</dimen>
+    <dimen name="arrow_refresh_header_arrow_margin_left">52dp</dimen>
+    <dimen name="arrow_refresh_header_arrow_margin_right">15dp</dimen>
+    <dimen name="arrow_refresh_header_progress_switcher_width">150dp</dimen>
+    <dimen name="arrow_refresh_header_progress_switcher_height">150dp</dimen>
+    <dimen name="arrow_refresh_header_progress_switcher_margin_left">60dp</dimen>
+    <dimen name="arrow_refresh_header_progress_switcher_margin_right">15dp</dimen>
+
+    <!-- MenuItem -->
+    <dimen name="menu_item_icon_size">@dimen/def_icon_size</dimen>
+    <dimen name="menu_item_icon_padding">20dp</dimen>
+    <dimen name="menu_item_height">180dp</dimen>
+    <dimen name="menu_item_padding_left">45dp</dimen>
+    <dimen name="menu_item_padding_right">45dp</dimen>
+    <dimen name="menu_item_title_margin_left">30dp</dimen>
+    <dimen name="menu_item_title_size">42sp</dimen>
+
+    <!-- 加载面板-->
+    <dimen name="loading_panel_width">450dp</dimen>
+    <dimen name="loading_panel_height">450dp</dimen>
+    <dimen name="loading_panel_corner_radius">60dp</dimen>
+    <dimen name="loading_progress_bar_width">165dp</dimen>
+    <dimen name="loading_progress_bar_height">165dp</dimen>
+    <dimen name="loading_text_size">42sp</dimen>
+    <dimen name="loading_text_margin_top">30dp</dimen>
+
+    <!-- 缓冲面板 -->
+    <dimen name="bufferring_panel_width">450dp</dimen>
+    <dimen name="bufferring_panel_height">450dp</dimen>
+    <dimen name="bufferring_panel_corner_radius">60dp</dimen>
+    <dimen name="bufferring_progress_bar_width">165dp</dimen>
+    <dimen name="bufferring_progress_bar_height">165dp</dimen>
+    <dimen name="bufferring_text_size">42sp</dimen>
+    <dimen name="bufferring_text_margin_top">30dp</dimen>
+
+    <!-- 播放 -->
+    <dimen name="control_panel_height">195dp</dimen>
+    <dimen name="control_panel_margin_left">15dp</dimen>
+    <dimen name="control_panel_margin_right">15dp</dimen>
+    <dimen name="control_panel_text_width">120dp</dimen>
+    <dimen name="control_panel_icon_size">105dp</dimen>
+    <dimen name="control_panel_icon_play_pause_size">120dp</dimen>
+    <dimen name="control_panel_icon_horizontal_space">12dp</dimen>
+    <dimen name="seekbar_height">75dp</dimen>
+    <dimen name="seekbar_padding_top">15dp</dimen>
+    <dimen name="seekbar_padding_bottom">15dp</dimen>
+    <dimen name="files_drawer_width">90dp</dimen>
+    <dimen name="files_drawer_height">180dp</dimen>
+
+    <!-- 选择对话框 -->
+    <dimen name="selection_dialog_width">1000dp</dimen>
+    <dimen name="selection_dialog_title_text_size">40sp</dimen>
+    <dimen name="selection_dialog_title_margin_top">30dp</dimen>
+    <dimen name="selection_dialog_title_margin_bottom">30dp</dimen>
+    <dimen name="selection_dialog_title_padding_left">30dp</dimen>
+    <dimen name="selection_dialog_item_height">150dp</dimen>
+    <dimen name="selection_dialog_item_vertical_space">3dp</dimen>
+    <dimen name="selection_dialog_item_padding_right">30dp</dimen>
+    <dimen name="selection_dialog_item_padding_left">30dp</dimen>
+    <dimen name="selection_dialog_item_label_size">37dp</dimen>
+
+    <!-- 搜索对话框 -->
+    <dimen name="dance_search_dialog_width">700dp</dimen>
+    <dimen name="dance_search_dialog_height">300dp</dimen>
+    <dimen name="def_sel_lyrics_size">12dp</dimen>
+</resources>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name" translatable="false">lycoo-desktop</string>
+
+    <string name="def_desktop_item_label">未配置</string>
+    <string name="replaceable">可替换</string>
+
+    <string name="msg_edit_desktop_item">长按可添加， 替换， 移除应用</string>
+    <string name="msg_desktop_item_config_error">坑位配置错误</string>
+    <string name="msg_failed_to_open_desktop_item">坑位打开失败</string>
+
+    <string name="status_prepareing">准备中</string>
+    <string name="status_canceled">正在取消</string>
+    <string name="status_downloading">下载中</string>
+    <string name="status_verifying">校验中</string>
+    <string name="status_installing">安装中</string>
+
+    <string name="msg_prepare_desktop_item_info_failed">获取坑位信息失败</string>
+    <string name="msg_network_unconnected">网络未连接</string>
+    <string name="msg_check_md5_failed">MD5校验失败</string>
+    <string name="msg_install_failed">安装失败</string>
+    <string name="msg_install_succeeded">安装成功</string>
+    <string name="msg_download_failed">下载失败</string>
+    <string name="msg_check_download_failed">当前文件已在下载列表中</string>
+    <string name="msg_stop_download">已停止下载</string>
+    <string name="msg_cancel_task">已取消当前任务</string>
+    <string name="msg_stop_install">应用正在安装，请稍后...</string>
+
+    <string name="no_more_apps">无应用</string>
+    <string name="menu_bind">添加</string>
+    <string name="menu_replace">替换</string>
+    <string name="menu_unbind">移除</string>
+    <string name="menu_uninstall">卸载</string>
+    <string name="prompts_bind_app">请选择要添加或替换的应用</string>
+    <string name="msg_uninstall_system_app">对不起，您没有权限卸载系统级应用</string>
+
+    <string name="hint_loading">拼命加载中\u2026</string>
+    <string name="hint_load_end">已加载完全部数据</string>
+    <string name="hint_load_error">出错了，请点击重试</string>
+
+    <string name="hint_arrow_refresh_header_normal">下拉刷新</string>
+    <string name="hint_arrow_refresh_header_release">释放立即刷新</string>
+    <string name="hint_refreshing">正在刷新\u2026</string>
+    <string name="hint_refresh_done">刷新完成</string>
+    <string name="arrow_refresh_header_last_time">上次更新时间</string>
+
+    <string name="loading">加载中\u2026</string>
+    <string name="buffering">缓冲中\u2026</string>
+    <string name="msg_invalid_number">无效的文件编号</string>
+
+    <string name="device_usb">USB设备</string>
+    <string name="device_internal_card">本地存储</string>
+    <string name="device_external_card">TF卡</string>
+    <string name="msg_select_no_device">对不起，您未选择任何设备</string>
+
+    <string name="prompt_edit_app">长按或按MENU键可编辑应用</string>
+    <string name="prompt_uninstall_app">长按卸载应用</string>
+
+    <string name="title_video_list">视频列表</string>
+    <string name="search">搜索</string>
+    <string name="hint_dance_search">Please input dance keywords</string>
+    <string name="msg_empty_keyword">搜索关键字不能为空</string>
+</resources>

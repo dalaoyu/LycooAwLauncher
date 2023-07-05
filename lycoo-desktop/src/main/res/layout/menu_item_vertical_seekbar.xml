@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lycoo.commons.widget.VerticalSeekBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seekbar"
+    style="@style/UnFocusable"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_item_seekbar_height"
+    android:layout_gravity="center"
+    android:duplicateParentState="true"
+    android:maxHeight="@dimen/menu_item_seekbar_max_height"
+    android:minHeight="@dimen/menu_item_seekbar_min_height"
+    android:paddingStart="@dimen/menu_item_seekbar_padding_start"
+    android:paddingEnd="@dimen/menu_item_seekbar_padding_end"
+    android:progressDrawable="@drawable/seekbar_progress_drawable"
+    android:thumb="@drawable/seekbar_thumb_green"
+    android:thumbOffset="@dimen/menu_item_seekbar_thumb_offset"/>

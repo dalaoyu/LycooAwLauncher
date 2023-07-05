@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/translate"/>
+
+    <padding
+        android:bottom="@dimen/def_desktop_item_gap"
+        android:left="@dimen/def_desktop_item_gap"
+        android:right="@dimen/def_desktop_item_gap"
+        android:top="@dimen/def_desktop_item_gap"/>
+</shape>

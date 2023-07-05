@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bind"
+        style="@style/DesktopItemMenuItemStyle">
+
+        <ImageView
+            style="@style/DesktopItemMenuItemIconStyle"
+            android:src="@drawable/ic_menu_bind"/>
+
+        <TextView
+            android:id="@+id/tv_bind"
+            style="@style/DesktopItemMenuItemLabelStyle"
+            android:text="@string/menu_bind"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/replace"
+        style="@style/DesktopItemMenuItemStyle">
+
+        <ImageView
+            style="@style/DesktopItemMenuItemIconStyle"
+            android:src="@drawable/ic_menu_replace"/>
+
+        <TextView
+            android:id="@+id/tv_replace"
+            style="@style/DesktopItemMenuItemLabelStyle"
+            android:text="@string/menu_replace"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/unbind"
+        style="@style/DesktopItemMenuItemStyle">
+
+        <ImageView
+            style="@style/DesktopItemMenuItemIconStyle"
+            android:src="@drawable/ic_menu_unbind"/>
+
+        <TextView
+            android:id="@+id/tv_unbind"
+            style="@style/DesktopItemMenuItemLabelStyle"
+            android:text="@string/menu_unbind"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/uninstall"
+        style="@style/DesktopItemMenuItemStyle">
+
+        <ImageView
+            style="@style/DesktopItemMenuItemIconStyle"
+            android:src="@drawable/ic_menu_uninstall"/>
+
+        <TextView
+            android:id="@+id/tv_uninstall"
+            style="@style/DesktopItemMenuItemLabelStyle"
+            android:text="@string/menu_uninstall"/>
+    </RelativeLayout>
+
+</LinearLayout>

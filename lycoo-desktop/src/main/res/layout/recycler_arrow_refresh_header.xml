@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/arrow_refresh_header_height"
+        android:layout_marginTop="@dimen/arrow_refresh_header_margin_top"
+        android:layout_marginBottom="@dimen/arrow_refresh_header_margin_top"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_header_text_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:minWidth="@dimen/arrow_refresh_header_text_container_min_width"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_arrow_refresh_header_normal"
+                android:textSize="@dimen/arrow_refresh_header_text_size"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/arrow_refresh_header_time_margin_top"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arrow_refresh_header_last_time"
+                    android:textSize="@dimen/arrow_refresh_header_text_size"/>
+
+                <TextView
+                    android:id="@+id/tv_last_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/arrow_refresh_header_text_size"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/arrow_refresh_header_arrow_margin_left"
+            android:layout_marginRight="@dimen/arrow_refresh_header_arrow_margin_right"
+            android:layout_toLeftOf="@id/ll_header_text_container"
+            android:src="@drawable/ic_pulltorefresh_arrow"
+            tools:ignore="RtlHardcoded"/>
+
+        <com.lycoo.commons.view.SimpleViewSwitcher
+            android:id="@+id/switcher_progress"
+            android:layout_width="@dimen/arrow_refresh_header_progress_switcher_width"
+            android:layout_height="@dimen/arrow_refresh_header_progress_switcher_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/arrow_refresh_header_progress_switcher_margin_left"
+            android:layout_marginRight="@dimen/arrow_refresh_header_progress_switcher_margin_right"
+            android:layout_toLeftOf="@id/ll_header_text_container"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded"/>
+    </RelativeLayout>
+
+</LinearLayout>
