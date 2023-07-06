@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 类型 -->
+    <string-array name="desktop_item_types_tongchuang">
+        <item>101__1</item>
+        <item>102__1</item>
+        <item>103__1</item>
+        <item>104__3</item>
+        <item>105__3</item>
+        <item>106__409</item>
+        <item>107__6</item>
+        <item>108__3</item>
+        <item>109__2</item>
+        <item>110__2</item>
+        <item>111__2</item>
+        <item>112__0</item>
+    </string-array>
+
+    <!-- source -->
+    <!--
+    应用：包名
+    爱奇艺频道：频道ID
+    爱奇艺普通推荐：推荐位index
+    com.ashd.live 电视直播[e家直播]
+    -->
+    <string-array name="desktop_item_sources_tongchuang">
+        <item>101__com.dangbeimarket</item>                         <!-- 当贝市场 -->
+        <item>102__com.keily.onekeyclear</item>                     <!-- 一键清理 -->
+        <item>103__com.android.settings</item>                      <!-- 设置 -->
+        <item>104__com.lycoo.lancy.ktv</item>                       <!-- KTV -->
+        <item>105__com.lycoo.lancy.dance</item>                     <!-- 广场舞-->
+      <!--        <item>106__com.iptv.liyuanhang_ott</item>                   &lt;!&ndash; 梨园行戏曲 &ndash;&gt;-->
+        <item>108__com.hpplay.happyplay.aw</item>                    <!-- 乐播投屏 -->
+        <item>109__com.dianshijia.newlive</item>                    <!-- 电视直播 -->
+        <item>110__com.kwai.tv.yst</item>                           <!-- 快手 -->
+        <item>111__com.lycoo.lancy.multi.media</item>               <!-- 多媒体播放器 -->
+        <item>112__com.lycoo.ACTION_MORE_APPS</item>                <!-- 更多应用 -->
+    </string-array>
+
+    <!-- 名称 -->
+    <string-array name="desktop_item_labels_tongchuang">
+        <item>101__应用市场</item>
+        <item>102__一键加速</item>
+        <item>103__设置</item>
+        <item>104__KTV</item>
+        <item>106__戏曲</item>
+        <item>107__蓝牙模式</item>
+        <item>112__更多应用</item>
+    </string-array>
+
+    <!-- 图标 -->
+    <string-array name="desktop_item_icons_tongchuang">
+        <item>101__ic_app_market</item>
+        <item>102__ic_clean</item>
+        <item>103__ic_setup</item>
+        <item>107__ic_item_bt</item>
+        <item>112__ic_more_apps</item>
+    </string-array>
+
+    <!-- 图标(需要显示的) -->
+    <string-array name="desktop_item_icon_visible_tongchuang">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+    </string-array>
+
+
+    <!-- 背景 -->
+    <string-array name="desktop_item_images_tongchuang">
+        <item>101__bg_light_blue</item>
+        <item>102__bg_green</item>
+        <item>103__bg_orange</item>
+        <item>104__bg_104</item>
+        <item>105__bg_105</item>
+        <item>106__bg_106</item>
+        <item>107__bg_red</item>
+        <item>108__bg_108</item>
+        <item>109__bg_blue</item>
+        <item>110__bg_blue</item>
+        <item>111__bg_blue</item>
+        <item>112__bg_blue</item>
+    </string-array>
+
+    <!-- 容器坑位信息 -->
+    <string-array name="desktop_container_item_sources_tongchuang">
+    </string-array>
+</resources>

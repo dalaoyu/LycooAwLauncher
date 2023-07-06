@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="StatusBarIconStyle">
+        <item name="android:layout_width">@dimen/statusbar_icon_size</item>
+        <item name="android:layout_height">@dimen/statusbar_icon_size</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">@dimen/statusbar_icon_margin_right</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

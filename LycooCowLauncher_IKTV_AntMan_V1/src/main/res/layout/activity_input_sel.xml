@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lycoo.lancy.launcher.activity.InputSelectionActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/bt_control"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:id="@+id/tv_title"
+                style="@style/CommonTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_sel_titlebar_height"
+                android:textSize="@dimen/input_sel_titile_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_bt_image"
+                android:layout_width="@dimen/input_sel_image_width"
+                android:layout_height="@dimen/input_sel_image_height"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/image_input_sel_bt" />
+
+        </LinearLayout>
+
+        <!--======================蓝牙歌词内容=================-->
+        <LinearLayout
+            android:id="@+id/lyrics_control"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:layout_marginTop="2dp"
+                android:id="@+id/tv_bt_title"
+                style="@style/CommonTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_sel_titlebar_height"
+                android:layout_gravity="center"
+                android:textSize="@dimen/input_sel_titile_text_size" />
+
+            <com.lycoo.desktop.ui.LyricsListView
+                android:id="@+id/lylv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_sel_image_height"
+                android:layout_marginEnd="@dimen/def_textview_padding_right"
+                android:layout_marginStart="@dimen/def_textview_padding_right"
+                android:layout_alignParentRight="true"
+                android:background="#3fffffff"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--======================LINE IN================-->
+    <com.lycoo.commons.view.SpectrumView
+        android:id="@+id/spectrum_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_sel_spectrum_view_height"
+        android:layout_centerInParent="true" />
+
+
+    <!--======================歌词显示================-->
+    <LinearLayout
+        android:id="@+id/is_lyrics"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressbar_ll"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/app_item_label_height"
+        android:layout_marginBottom="@dimen/date_margin_top">
+
+        <ImageView
+            android:id="@+id/ic_lyrics"
+            android:layout_width="@dimen/statusbar_icon_size"
+            android:layout_height="@dimen/statusbar_icon_size"
+            android:background="@drawable/bg_status_bar_item"
+            android:padding="@dimen/statusbar_icon_padding"
+            android:src="@drawable/ic_lyrics"
+            />
+
+        <TextView
+            android:visibility="visible"
+            android:textSize="@dimen/desktop_item_pb_text_size"
+            android:layout_gravity="center"
+            android:text="@string/is_lyrics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+    <!--======================进度条=================-->
+    <LinearLayout
+        android:id="@+id/progressbar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/control_bar"
+        android:layout_marginBottom="@dimen/app_item_label_margin_bottom"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_item_label_height"
+            android:maxLines="1"
+            android:text="00:00"
+            android:textSize="@dimen/desktop_item_pb_text_size"
+            android:visibility="visible" />
+
+        <com.lycoo.commons.view.colorfulprogressbar.ColorfulProgressbar
+            android:id="@+id/colorfulProgressbar"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/app_item_label_height"
+            android:layout_marginEnd="@dimen/app_item_label_height"
+            android:layout_weight="1"
+            app:maxBar="100"
+            app:progressColor1="@color/light_blue"
+            app:secondProgressBar="1"
+            app:styleBar="@string/style_normal" />
+
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/app_item_label_height"
+            android:maxLines="1"
+            android:text="00:00"
+            android:textSize="@dimen/desktop_item_pb_text_size"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <!--======================功能按钮=================-->
+    <LinearLayout
+        android:id="@+id/control_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_prompts"
+        android:layout_marginBottom="@dimen/app_item_label_margin_bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_prev"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_prev"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_next"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_play_pause"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_play"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_volume_down"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_volume_down"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_volume_up"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_volume_up"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_android_mode"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_android_mode" />
+
+        <ImageView
+            android:id="@+id/iv_bt_mode"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_bt_mode" />
+
+        <ImageView
+            android:id="@+id/iv_linein_mode"
+            style="@style/ControlBarItemStyle"
+            android:src="@drawable/ic_linein_mode" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_prompts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/control_bar_item_gap"
+        android:maxLines="1"
+        android:text="@string/prompts_input_sel"
+        android:textSize="@dimen/more_apps_prompts_text_size"
+        android:visibility="visible" />
+
+</RelativeLayout>

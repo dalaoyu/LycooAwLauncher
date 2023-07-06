@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="storage_setting">
+    <PreferenceCategory
+        android:title="@string/storage_internal_title">
+        <Preference
+            android:key="localdata_reset"
+            android:title="@string/localdata_reset"
+            android:summary="@string/localdata_reset_summary"/>
+    </PreferenceCategory>
+    <com.lycoo.honceh.Setting.settingStorage.preference.StorageVolumePreference
+        android:key="storage_volume"
+        android:title="6.32GB"
+        android:summary="共32GB"/>
+<!--    <PreferenceCategory-->
+<!--        android:key="storage_external"-->
+<!--        android:title="@string/storage_external_title"/>-->
+
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3eb6cf</color>
+    <color name="colorPrimaryDark">#249bb3</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="status_bar_vertical_line">#50FFFFFF</color>
+    <color name="dance_recycler_item_title">#F0FFFFFF</color>
+
+    <color name="bg_search_piece">#30FFFFFF</color>
+
+    <!-- 图标 -->
+    <color name="base_normal">#50FFFFFF</color>
+    <color name="base_color">#50FFFFFF</color>
+    <color name="bg_icon_white">@color/base_color</color>
+    <color name="bg_icon_white_focus">@color/base_solid_focus_color</color>
+    <color name="bg_icon_green">#850EAE52</color>
+    <color name="bg_icon_green_focus">@color/base_solid_focus_color</color>
+
+    <!--<color name="desktop_item_stroke_focus">#FFFFFF</color>-->
+
+    <color name="app_panel_solid">#20FFFFFF</color>
+
+    <!-- Arc menu -->
+    <color name="arc_menu_item">#850EAE52</color>
+    <color name="arc_menu_item_focus">@color/base_solid_focus_color</color>
+
+    <!--SetupMenu -->
+    <color name="setup_menu_bg">@color/c_dark_dialog_bg</color>
+
+</resources>

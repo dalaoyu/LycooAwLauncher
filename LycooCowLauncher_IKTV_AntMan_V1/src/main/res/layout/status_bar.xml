@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_date"
+        style="@style/StatusBarTextStyle"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/date_margin_right"
+        android:layout_marginTop="@dimen/date_margin_top"
+        android:gravity="bottom"
+        android:text="@string/def_date"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/tv_weekDay"
+        style="@style/StatusBarTextStyle"
+        android:layout_alignLeft="@+id/tv_date"
+        android:layout_marginTop="@dimen/weak_margin_top"
+        android:gravity="top"
+        android:text="@string/def_week_day"
+        tools:ignore="RtlHardcoded"/>
+
+    <View
+        android:id="@+id/v_vertical_line"
+        android:layout_width="@dimen/statusbar_vertial_line_width"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/statusbar_vertial_line_margin_bottom"
+        android:layout_marginLeft="@dimen/statusbar_vertial_line_margin_left"
+        android:layout_marginRight="@dimen/statusbar_vertial_line_margin_right"
+        android:layout_marginTop="@dimen/statusbar_vertial_line_margin_top"
+        android:layout_toLeftOf="@+id/tv_date"
+        android:background="@color/status_bar_vertical_line"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="@style/StatusBarTextStyle"
+        android:layout_marginTop="@dimen/time_margin_top"
+        android:layout_toLeftOf="@+id/v_vertical_line"
+        android:text="@string/def_time"
+        android:textSize="@dimen/time_text_size"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/iv_weather"
+        style="@style/StatusBarIconStyle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_time"
+        android:src="@drawable/ic_weather_default"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageView
+        android:id="@+id/iv_netWork"
+        style="@style/StatusBarIconStyle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_weather"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/wifi_disconnect"
+        android:visibility="visible"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageView
+        android:id="@+id/iv_usb"
+        style="@style/StatusBarIconStyle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_netWork"
+        android:src="@drawable/ic_usb"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageView
+        android:id="@+id/iv_card"
+        style="@style/StatusBarIconStyle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_usb"
+        android:src="@drawable/ic_external_card"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageView
+        android:id="@+id/iv_battery"
+        style="@style/StatusBarIconStyle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_card"
+        android:layout_toStartOf="@+id/iv_card"
+        />
+
+    <TextView
+        android:id="@+id/tv_debug_battery"
+        style="@style/StatusBarTextStyle"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/iv_battery"
+        />
+
+</RelativeLayout>

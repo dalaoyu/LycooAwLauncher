@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here.
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!-- status bar ****************************************************************************** -->
+    <style name="StatusBarTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/statusbar_text_size</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="StatusBarIconStyle">
+        <item name="android:layout_width">@dimen/statusbar_icon_size</item>
+        <item name="android:layout_height">@dimen/statusbar_icon_size</item>
+        <item name="android:padding">@dimen/statusbar_icon_padding</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginRight">@dimen/statusbar_icon_margin_right</item>
+        <item name="android:background">@drawable/bg_status_bar_item</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="ControlBarItemStyle">
+        <item name="android:layout_width">@dimen/control_bar_item_width</item>
+        <item name="android:layout_height">@dimen/control_bar_item_height</item>
+        <item name="android:layout_marginLeft">@dimen/control_bar_item_gap</item>
+        <item name="android:layout_marginRight">@dimen/control_bar_item_gap</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@drawable/bg_circle_white</item>
+    </style>
+</resources>

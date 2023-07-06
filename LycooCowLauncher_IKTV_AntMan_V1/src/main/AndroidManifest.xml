@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lycoo.lancy.launcher">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+
+        <!-- 初始化 -->
+        <activity android:name=".activity.InitActivity" />
+
+        <!-- 启动视频 -->
+        <activity
+            android:name=".activity.BootVideoActivity"
+            android:launchMode="singleTask" />
+
+        <!-- 主页面 -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+
+        <!-- 更多应用 -->
+        <activity android:name=".activity.MoreAppsActivity">
+            <intent-filter>
+                <action android:name="com.lycoo.ACTION_MORE_APPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 模式切换显示 -->
+        <activity
+            android:name=".activity.InputSelectionActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/WallPaperThemeStyle">
+            <intent-filter>
+                <action android:name="com.lycoo.action.INPUT_SEL_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.TestActivity" />
+
+        <meta-data
+            android:name="appKey"
+            android:value="ax2emlrvs0vfql5zzwxwwyuqf0cklb3y" />
+    </application>
+
+</manifest>

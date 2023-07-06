@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- init activity -->
+    <dimen name="init_pb_margin_top">300dp</dimen>
+    <dimen name="init_text_margin_top">50dp</dimen>
+    <dimen name="init_text_size">30dp</dimen>
+
+    <!-- status bar -->
+    <dimen name="statusbar_height">70dp</dimen>
+    <dimen name="statusbar_margin_top">10dp</dimen>
+    <dimen name="statusbar_icon_size">50dp</dimen>
+    <dimen name="statusbar_icon_margin_right">14dp</dimen>
+    <dimen name="statusbar_text_size">20sp</dimen>
+    <dimen name="statusbar_vertial_line_width">1dp</dimen>
+    <dimen name="statusbar_vertial_line_margin_top">10dp</dimen>
+    <dimen name="statusbar_vertial_line_margin_bottom">15dp</dimen>
+    <dimen name="statusbar_vertial_line_margin_left">10dp</dimen>
+    <dimen name="statusbar_vertial_line_margin_right">10dp</dimen>
+    <dimen name="date_margin_right">20dp</dimen>
+    <dimen name="date_margin_top">12dp</dimen>
+    <dimen name="weak_margin_top">30dp</dimen>
+    <dimen name="time_margin_top">10dp</dimen>
+    <dimen name="time_text_size">45sp</dimen>
+    <dimen name="statusbar_icon_padding">5dp</dimen>
+
+    <!-- logo -->
+    <dimen name="logo_width">302dp</dimen>
+    <dimen name="logo_height">30dp</dimen>
+    <dimen name="logo_margin_left">50dp</dimen>
+    <dimen name="logo_margin_top">30dp</dimen>
+    
+    <dimen name="search_piece_height">60dp</dimen>
+    <dimen name="search_piece_margin_left">40dp</dimen>
+    <dimen name="search_piece_margin_top">20dp</dimen>
+    <dimen name="search_padding_left">35dp</dimen>
+    <dimen name="search_padding_right">35dp</dimen>
+    <dimen name="search_icon_size">35dp</dimen>
+    <dimen name="search_corner_radius">30dp</dimen>
+    <dimen name="search_text_size">25sp</dimen>
+    <dimen name="search_text_margin_left">10dp</dimen>
+
+    <!-- marquee -->
+    <dimen name="marguee_width">550dp</dimen>
+    <dimen name="marguee_height">70dp</dimen>
+    <dimen name="marquee_padding_top">10dp</dimen>
+    <dimen name="marquee_padding_bottom">10dp</dimen>
+    <dimen name="marquee_margin_left">205dp</dimen>
+    <dimen name="marquee_margin_top">20dp</dimen>
+    <dimen name="marquee_margin_bottom">10dp</dimen>
+    <dimen name="marquee_text_size">30sp</dimen>
+
+    <!-- desktop item ********************************************************************** -->
+    <dimen name="desktop_items_margin_top">150dp</dimen>
+    <dimen name="desktop_items_margin_left">50dp</dimen>
+    <dimen name="desktop_items_margin_right">50dp</dimen>
+    <dimen name="desktop_item_horizontal_space">5dp</dimen>
+    <dimen name="desktop_item_vertical_space">5dp</dimen>
+    <dimen name="desktop_item_big_horizontal_space">40dp</dimen>
+
+    <dimen name="big_vertical_item_width">325dp</dimen>
+    <dimen name="big_vertical_item_height">430dp</dimen>
+    <dimen name="big_vertical_item_label_margin_bottom">10dp</dimen>
+    <dimen name="big_vertical_item_label_text_size">28sp</dimen>
+
+    <dimen name="big_horizontal_item_width">325dp</dimen>
+    <dimen name="big_horizontal_item_height">140dp</dimen>
+    <dimen name="big_horizontal_item_icon_margin_top">25dp</dimen>
+    <dimen name="big_horizontal_item_icon_margin_left">25dp</dimen>
+
+    <dimen name="big_square_item_width">160dp</dimen>
+    <dimen name="big_square_item_height">140dp</dimen>
+    <dimen name="big_square_item_icon_margin_top">25dp</dimen>
+
+    <dimen name="desktop_item_gap">5dp</dimen>
+    <dimen name="desktop_item_stroke">5dp</dimen>
+    <dimen name="desktop_item_corner_radius">10dp</dimen>
+    <dimen name="desktop_item_icon_width">60dp</dimen>
+    <dimen name="desktop_item_icon_height">60dp</dimen>
+    <dimen name="desktop_item_overlay_width">120dp</dimen>
+    <dimen name="desktop_item_overlay_height">120dp</dimen>
+    <dimen name="desktop_item_label_text_size">20sp</dimen>
+    <dimen name="desktop_item_label_padding_top">10dp</dimen>
+    <dimen name="desktop_item_label_padding_bottom">10dp</dimen>
+
+
+    <!-- MainActivity -->
+    <dimen name="main_loading_label_margin_bottom">40dp</dimen>
+    <dimen name="main_loading_label_text_size">40sp</dimen>
+    <dimen name="more_apps_prompts_text_size">18sp</dimen>
+    <dimen name="more_apps_gridview_margin_top">10dp</dimen>
+
+    <!-- activity audio mode -->
+    <dimen name="input_sel_titlebar_height">100dp</dimen>
+    <dimen name="input_sel_titlebar_padding_left">20dp</dimen>
+    <dimen name="input_sel_icon_width">80dp</dimen>
+    <dimen name="input_sel_icon_height">80dp</dimen>
+    <dimen name="input_sel_icon_padding">10dp</dimen>
+    <dimen name="input_sel_titile_margin_left">20dp</dimen>
+    <dimen name="input_sel_titile_text_size">38sp</dimen>
+    <dimen name="input_sel_image_width">400dp</dimen>
+    <dimen name="input_sel_image_height">400dp</dimen>
+    <dimen name="input_sel_image_margin_top">100dp</dimen>
+    <dimen name="input_sel_spectrum_view_height">150dp</dimen>
+    <dimen name="control_bar_height">250dp</dimen>
+    <dimen name="control_bar_item_width">120dp</dimen>
+    <dimen name="control_bar_item_height">120dp</dimen>
+    <dimen name="control_bar_item_gap">20dp</dimen>
+    <dimen name="control_bar_margin_bottom">40dp</dimen>
+    <dimen name="input_sel_prompts_margin_bottom">40dp</dimen>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 需要隐藏的应用 -->
+    <string-array name="translate_apps" translatable="false">
+        <item>com.android.contacts</item>                             <!-- 联系人 -->
+        <item>com.android.gallery3d</item>                            <!-- 图库 -->
+        <item>com.android.music</item>                                <!-- 音乐-->
+        <item>com.android.development</item>                          <!-- 开发-->
+        <item>com.softwinner.fireplayer</item>                        <!-- 4k播放器-->
+        <item>com.lycoo.testvideolan</item>                           <!-- 测试-->
+        <item>com.android.providers.downloads</item>                  <!-- 下载 -->
+        <item>com.android.speechrecorder</item>                       <!-- SpeechRecorder -->
+        <item>com.rockchip.wfd</item>                                 <!-- Wifi display -->
+        <item>com.linkin.video.search</item>                          <!-- 哇视频 -->
+        <item>org.chromium.webview_shell</item>                       <!-- webview -->
+    </string-array>
+
+    <!-- SetupMenu item 配置 -->
+    <string-array name="setup_packagenames">
+    </string-array>
+
+    <!-- 工具菜单配置 -->
+    <string-array name="tools_sources" translatable="false">
+    </string-array>
+</resources>

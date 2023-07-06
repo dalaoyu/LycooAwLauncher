@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.InitActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/def_circle_pb_width"
+        android:layout_height="@dimen/def_circle_pb_height"
+        android:layout_marginTop="@dimen/init_pb_margin_top"
+        android:indeterminateDrawable="@drawable/progressbar_circle_indeterminate"/>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        style="@style/CommonTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/init_text_margin_top"
+        android:text="@string/initiating"
+        android:textSize="@dimen/init_text_size"/>
+
+</LinearLayout>

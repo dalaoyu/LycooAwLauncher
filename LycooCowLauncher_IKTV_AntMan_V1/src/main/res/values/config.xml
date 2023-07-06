@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 时间更新间隔， 以秒为单位 -->
+    <integer name="update_time_interval">60</integer>
+
+    <!-- 天气更新间隔， 以分钟为单位 -->
+    <integer name="update_weather_interval">60</integer>
+
+    <!-- 老化测试wifi -->
+    <integer name="aging_test_scan_max_count">5</integer>
+    <string name="aging_test_ssid" translatable="false">LYCOO-FACTORY-TEST2018</string>
+    <string name="aging_ktv_ssid" translatable="false">LYCOO-FACTORY-TEST2021</string>
+
+
+    <string name="install_ktv_ssid" translatable="false">LYCOO-FACTORY-INSTALL2023</string>
+
+
+
+
+    <string name="aging_time" translatable="false">agingTime</string>
+
+
+
+    <!-- KTV包名 -->
+    <string name="ktv_packagename" translatable="false">com.lycoo.lancy.ktv</string>
+    <!-- 启动视频路径 -->
+    <string name="boot_video_path" translatable="false">/system/media/welcome.mp4</string>
+
+</resources>
